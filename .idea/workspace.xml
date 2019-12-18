@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa726cd-ff67-4edc-8256-4f63ea5e2131" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PigDieGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/PigDieGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PigDieGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PigDieGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PigDiePlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/PigDiePlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PigDiePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PigDiePlayer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
