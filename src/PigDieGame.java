@@ -4,10 +4,7 @@ public class PigDieGame {
     PigDiePlayer player1;
     PigDiePlayer player2;
     Scanner scan;
-    int totalScore;
-    int newScore;
-    int totalScore1 = 0;
-    int totalScore2 = 0;
+
 
     public PigDieGame() {
         player1 = new PigDiePlayer();
@@ -56,18 +53,19 @@ public class PigDieGame {
                     System.out.println("Round Score: 0");
 
                 } else {
-                    newScore = player.getScore() + player.getRoll1() + player.getRoll2();
-                    System.out.println("Round score:" + newScore);
+
+                    newScore = player.getRoll1() + player.getRoll2();
+                    System.out.println("Round score: "+ newScore);
                     player.setScore(newScore);
+                    System.out.println("Total score:" + player.getScore());
 
+
+
+                    }
                 }
 
-                if (newScore > player.getScore()) {
-                    System.out.println("Rolls added to score");
-                }
             }
-            player.setScore(newScore);
-            System.out.println("total score:" + player.getScore());
+
         }
-    }
+
 }
